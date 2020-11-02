@@ -42,7 +42,10 @@ $_SESSION['platillos_ordenados'] = [];
             $platillos = $_SESSION['platillos_ordenados'];
 
     ?>
-        <table>
+        <!-- Tabla de platillos -->
+        <table class="menu_table">
+        <caption>Platillos</caption>
+        <th id="table-id">Info tabla</th>
             <thead>Platillos</thead>
             <?php foreach($platillos as $platillo): ?>
                 <tr>
